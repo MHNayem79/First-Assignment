@@ -56,21 +56,20 @@
     text-align: center;
     margin-top: 74px;
     margin-bottom: 80px;
-    background-color: #f4f5fc;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgba(2, 44, 128, 0.02);
 }
 .section-container{
     width: 946px;
     height: 1233px;
-    background-color: #f4f5fc;
     padding-top: 40px;
     display: block;
     margin-right: auto;
     margin-left: auto;
     align-items: center;
-    
+}
 .section-header{
     width: 801px;
     display: block;
@@ -79,7 +78,7 @@
     padding-top: 0px;
 }
 .section-1{
-    width: 800px;
+    width: 850px;
     height: 250px;
     background-color: rgba(255, 255, 255, 1);
     gap: 98px;
@@ -93,7 +92,7 @@
     border-radius: 16px;
 }
 .section-2{
-    width: 800px;
+    width: 850px;
     height: 250px;
     background-color: rgba(255, 255, 255, 1);
     padding: 40px 48px;
@@ -107,7 +106,7 @@
     border-radius: 16px;
 }
 .section-3{
-    width: 800px;
+    width: 850px;
     height: 250px;
     background-color: rgba(255, 255, 255, 1);
     gap: 98px;
@@ -144,4 +143,77 @@ section-description{
     padding: 12px 20px;
 }
 .image-2{
+}
+/* insparation styles */
+.inspiration{
+    width: 1140px;
+    height: 775px;
+    background-color: rgba(255, 255, 255, 1);
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 90px;
+    margin-bottom: 150px;
+}
+.video{
+    border-radius: 16px;
+    margin-top: 32px;
+}
+.video-border{
+    width: 1135px;
+    height: 614px;
+    border-style: ridge;
+    border-radius: 16px;
+}
+.inspiration-container{
+    width: 852px;
+    height: 113px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+    /* current target style */
+.cards{
+    display: flex;
+    gap: 24px;
+    
+}
+.card{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    text-align: left;
+    background-color: rgba(255, 76, 30, 0.05)
+    ;
+
+}
+.current-target{
+    width: 1140px;
+    height: 560px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 49px;
+}
+.current-target-container{
+    width: 946px;
+    height: 113px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 46px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 900;
+}
+.card-2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.card-3{
+    background-color: rgba(255, 223, 0, 0.05);
 }
