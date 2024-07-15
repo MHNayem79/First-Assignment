@@ -280,6 +280,7 @@ section-description{
     display: flex;
     gap: 730px;
     padding-left: 100px;
+    align-items: center;
 }
 .link-1{
     font-size: 20px;
