@@ -48,6 +48,13 @@
     font-size: 20px;
     font-weight: 600;
 }
+.scroll-to-footer {
+    cursor: pointer;
+}
+.scroll-to-footer:hover {
+    background-color: #0056b3;
+}
+
 
 /* section style */
 .section{
@@ -268,4 +275,13 @@ section-description{
     gap: 10px;
     margin-left: 250px;
     
+}
+.links{
+    display: flex;
+    gap: 730px;
+    padding-left: 100px;
+}
+.link-1{
+    font-size: 20px;
+    font-weight: 600;
 }
